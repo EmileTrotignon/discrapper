@@ -1,0 +1,20 @@
+(executable
+ (name main)
+ (public_name discrapper)
+ (libraries
+  rolelang
+  disml
+  sexplib
+  astring
+  cohttp
+  fmt
+  git
+  irmin
+  irmin-git
+  irmin-unix
+  ppx_irmin
+  common
+  lwt
+  lwt.unix)
+ (preprocess
+  (pps ppx_sexp_conv embedded_ocaml_templates.ppx_eml ppx_let)))

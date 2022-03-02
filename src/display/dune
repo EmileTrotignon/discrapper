@@ -1,0 +1,6 @@
+(executable
+ (name main)
+ (public_name discrapper_display)
+ (libraries core sexplib disml common ISO8601 matplotlib pyml)
+ (preprocess
+  (pps embedded_ocaml_templates.ppx_eml)))
