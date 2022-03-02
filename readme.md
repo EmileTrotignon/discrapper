@@ -24,4 +24,4 @@ the channels whose information you want to display.
 
 - `ocaml-matplotlib` from here https://github.com/EmileTrotignon/ocaml-matplotlib
 - `disml` from here https://github.com/EmileTrotignon/disml.
-- `core`, `async`, `embedded_ocaml_templates`, `sexplib` from opam.
+- `core`, `async`, `embedded_ocaml_templates`, `sexplib`, `ISO8601` from opam.

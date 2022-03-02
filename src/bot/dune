@@ -1,13 +1,6 @@
 (executable
  (name main)
  (public_name discrapper)
- (libraries
-  disml
-  sexplib
-  astring
-  cohttp
-  fmt
-  common
-  )
+ (libraries disml sexplib astring cohttp fmt common)
  (preprocess
   (pps ppx_sexp_conv embedded_ocaml_templates.ppx_eml ppx_let)))
